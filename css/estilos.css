@@ -1,0 +1,1298 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  body{
+	background-color: rgba(241, 227, 243, 0.692);
+}
+
+
+
+
+
+
+ .body-contact{
+	background-image: url("https://images.pexels.com/photos/270214/pexels-photo-270214.jpeg");
+	background-size: 100vw 100vh;
+	background-attachment: fixed; /* Para que la imagen se quede fija */
+
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+
+ form{
+	 width: 450px;
+	 margin:auto; /* Centrado */
+	 background: rgba(0,0,0,0.7); /* 0.7 es la transparencia */
+	 padding: 40px 20px; /* 10 pixeles vertical 20 horizontal */
+	 margin-top: 30px;
+	 border-radius: 20px;
+	 margin-bottom: 30px;
+ }
+
+
+.h2-contacto{
+	color: #fff;
+	text-align: center;
+	margin:0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+input, textarea{
+	width: 100%;
+	margin-bottom: 25px;
+	padding:7px;
+	font-size: 20px;
+	border: none;
+}
+
+
+textarea{
+	min-height: 100px; /* Altura minima 100px */
+	max-height: 150px; /* Altura maxima 100px */
+	max-width: 100%;
+	min-width: 100%;
+}
+
+#boton-contacto{
+	background: linear-gradient(to right, #000000, #1d1c1d);
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+}
+
+
+
+
+
+  
+
+  .header-nav{
+    font-family: fantasy;
+  }
+
+  
+  .nav{
+    background: #080808;
+    height: 80px;
+    width: 100%;
+  }
+
+  
+
+  .nav .ul-nav{
+    float: right;
+    margin-right: 20px;
+  }
+  
+  .nav .ul-nav .li-nav{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  
+  .nav .ul-nav .li-nav .a-nav{
+    color: white;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 15px; /* Borde redondo */
+    text-transform: uppercase;
+  }
+
+
+
+  .a-nav:hover{
+	color: black;
+    background: #5b6064;
+    transition: .5s;
+  }
+
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+
+  #check{
+    display: none;
+  }
+
+  
+
+
+
+ 
+  
+
+
+
+.slider{
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 20s infinite;
+	animation-direction: alternate;
+}
+
+
+.slider li{
+	width: 100%;
+	list-style: none;
+
+}
+
+.slider img{
+	width: 100%;
+}
+
+
+@keyframes cambio{
+
+	0% {margin-left: 0;} /*Tiempo { marginleft: cuanto se mueve; }*/
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+
+
+}
+
+
+
+
+/* Celular */
+.container-bicicletas-accesorios{
+	width: 90%;
+	max-width: 100	0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	margin-bottom: 3em;
+
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 30px;
+}
+
+.item-bicicletas-accesorios{
+	background-color: #080808;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.095);
+	transition: all 300ms;
+}
+
+
+.item-bicicletas-accesorios:hover{
+	transform: scale(1.03);
+}
+
+
+.item-text{
+	padding: 1em;
+}
+
+
+.item-img{
+	max-width: 100%;
+	display: block;
+}
+
+.precio-bicicleta-accesorios{
+	font-family: Verdana, Geneva, Tahoma, sans-serif	;
+}
+
+.descripcion-bicicleta-accesorios{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body-sobre-nosotros{
+	background-image: url(https://i.pinimg.com/originals/08/dd/6d/08dd6d8f774c6c65baca2536383e0c07.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+.h1-titulo{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 50px;
+}
+
+
+.p-info{
+	font-family: cursive;
+	font-size: 20px;
+	background: rgba(0,0,0,0.7); /* 0.7 es la transparencia */
+	color: white;
+	text-align: center;
+	padding: 30px;
+}
+
+
+.mapa-ubicacion{
+	width: 800px;
+	height: 600px;
+	padding: 30px;
+	margin-bottom: 0px;
+}
+
+
+
+
+.div-ubicacion{
+	padding: 30px;
+	background: rgba(0,0,0,0.4);
+}
+
+
+.h1-ubicacion{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 50px;
+	color: rgb(0, 0, 0);
+	margin-top: 30px;
+	
+
+}
+
+
+.h1-videos{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 40px;
+	text-align: center;
+	font-size: 50px;
+	color: rgb(0, 0, 0);
+	margin-bottom: 30px;
+	margin-top: 30px;
+	
+}
+
+
+.video-sobre-nosotros{
+	background: rgba(0,0,0,0.6);
+	padding: 40px;
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	background:rgb(16, 20, 20);
+	height: auto;
+	width: 100%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color:rgb(200, 197, 201);
+}
+
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer-content .footer-h3{
+		font-size: 30px;
+		font-weight: 400;
+		text-transform: capitalize; /*Pone la primera letra de cada palabra en mayuscula*/
+		line-height: 150px;
+}
+
+.footer-content .footer-p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 20px; /* Tamaño de letra */
+}
+
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+}
+
+.socials .footer-li{
+	margin: 20px;
+}
+
+.socials .footer-a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.socials .footer-a i{
+	font-size: 1.1rem;
+	transition: color .5 ease;
+
+}
+
+.footer-a:hover{
+	color: rgb(180, 11, 214);
+	transition: .5s;
+}
+
+
+.footer-info{
+	background: rgb(0, 7, 10);
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+}
+
+.footer-info p{
+	font-size: 15px;
+	word-spacing: 2px; /* Espacio entre letras */
+	text-transform: capitalize; /*Pone la primera letra de cada palabra en mayuscula*/
+}
+
+.footer-info span{
+	text-transform: uppercase; /* Muestra todo el texto en mayusculas */
+	opacity: .9;
+	font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================================== RESPONSIVE ====================================*/
+
+
+
+
+/* ---------------- RESPONSIVE 320px ----------------*/
+@media screen and (min-width: 320px){ 
+
+	label.logo{
+		color: white;
+		font-size: 30px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		margin-left: 40px;
+		line-height: 80px;
+	  }
+
+
+	.bienvenida{
+	 font-size: 13px;
+	 text-align: center;
+	 font-family: cursive;
+	 margin-top: 40px;
+	}
+
+
+	.catalogo-inicio{
+		color: #000000;
+		font-family: fantasy;
+		font-size: 50px;
+		margin-bottom: 40px;
+   }
+
+
+	.container{
+		width: 90%;
+		margin: 50px auto;
+	
+	}
+	
+	.heading{
+		text-decoration: underline;
+		text-align: center;
+		font-size: 20px;
+		margin-bottom: 50px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	
+	.row{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-flow: wrap;
+	}
+	
+	.card{
+		width: 90%;
+		background:#fff;
+		border: 1px solid #ccc;
+		margin-bottom: 50px;
+		transition: 0.3s;
+	}
+	
+	.card-header{
+		text-align: center;
+		font-family: sans-serif;
+		padding: 50px 10px;
+		background: linear-gradient(to right, #bd0cc4, #2e2bee);
+		color: #0d1017;
+	}
+	
+	
+	
+	.card-body{
+		padding: 3%;
+		text-align: center;
+		font-size: 18px;
+	
+	}
+	
+	p{
+		font-family: Verdana, Geneva, Tahoma, sans-serif}
+
+
+	.card-body .btn{
+		display: block;
+		color: #0d1017;
+		font-family: fantasy;
+		text-align: center;
+		background: linear-gradient(to right, #b825dd, rgb(12, 58, 128));
+		margin-top: 30px;
+		text-decoration: none;
+		padding: 10px 5px;
+	}
+	
+	.card:hover{
+		transform: scale(1.05);
+		box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+	}
+
+
+
+
+	
+
+
+
+
+	.body-sobre-nosotros{
+		background-image: url(https://i.pinimg.com/originals/08/dd/6d/08dd6d8f774c6c65baca2536383e0c07.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	
+	
+	
+	
+	
+	.h1-titulo{
+		text-align: center;
+		margin-bottom: 30px;
+		margin-top: 30px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 25px;
+	}
+	
+	
+	.p-info{
+		font-family: cursive;
+		font-size: 20px;
+		background: rgba(0,0,0,0.7); /* 0.7 es la transparencia */
+		color: white;
+		text-align: center;
+		padding: 30px;
+	}
+	
+	
+	.mapa-ubicacion{
+		width: 270px;
+		height: 270px;
+		padding: 0px;
+		margin-bottom: 0px;
+	}
+	
+	
+	
+	
+	.div-ubicacion{
+		padding: 1	0px;
+		background: rgba(0,0,0,0.4);
+	}
+	
+	
+	.h1-ubicacion{
+		font-family: Arial, Helvetica, sans-serif;
+		padding: 10px;
+		text-align: center;
+		margin-bottom: 30px;
+		font-size: 25px;
+		color: rgb(0, 0, 0);
+		margin-top: 30px;
+	}
+	
+	
+	.h1-videos{
+		font-family: Arial, Helvetica, sans-serif;
+		padding: 10px;
+		text-align: center;
+		font-size: 25px;
+		color: rgb(0, 0, 0);
+		margin-bottom: 30px;
+		margin-top: 30px;
+		
+	}
+	
+	
+	.video-sobre-nosotros{
+		background: rgba(0,0,0,0.6);
+		padding: 5px;
+		margin-bottom: 40px;
+	}
+	
+	
+	.video{
+		margin-top: 100px;
+		width: 270px;
+		height: 180px;
+		margin-bottom: 100px;
+	}
+	
+	
+	.video2{
+		width: 270px;
+		height: 200px;
+		margin-bottom: 140px;
+		
+	}
+
+
+	
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------- RESPONSIVE 375px ----------------*/
+@media screen and (min-width: 375px){ 
+
+	
+
+	.bienvenida{
+		font-size: 15px;
+		text-align: center;
+		font-family: cursive;	
+		margin-top: 40px;
+	   }
+
+	.catalogo-inicio{
+		color: #000000;
+		font-family: fantasy;
+		font-size: 60px;
+		margin-bottom: 60px;
+   }
+
+	.container{
+		width: 90%;
+		margin: 50px auto;
+	
+	}
+	
+	.heading{
+		text-decoration: underline;
+		text-align: center;
+		font-size: 20px;
+		margin-bottom: 50px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	
+	.row{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-flow: wrap;
+	}
+	
+	.card{
+		width: 90%;
+		background:#fff;
+		border: 1px solid #ccc;
+		margin-bottom: 50px;
+		transition: 0.3s;
+	}
+	
+	.card-header{
+		text-align: center;
+		font-family: sans-serif;
+		padding: 50px 10px;
+		background: linear-gradient(to right, #bd0cc4, #2e2bee);
+		color: #0d1017;
+	}
+	
+	
+	
+	.card-body{
+		padding: 3%;
+		text-align: center;
+		font-size: 18px;
+	
+	}
+	
+	p{
+		font-family: Verdana, Geneva, Tahoma, sans-serif;	
+	}
+	
+	.card-body .btn{
+		display: block;
+		color: #0d1017;
+		font-family: fantasy;
+		text-align: center;
+		background: linear-gradient(to right, #b825dd, rgb(12, 58, 128));
+		margin-top: 30px;
+		text-decoration: none;
+		padding: 10px 5px;
+	}
+	
+	.card:hover{
+		transform: scale(1.05);
+		box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+	}
+
+
+
+
+
+	
+
+
+}
+
+
+
+
+
+
+
+
+
+/* ---------------- RESPONSIVE 425px ----------------*/
+@media screen and (min-width: 425px){ 
+
+
+
+	.bienvenida{
+		font-size: 19px;
+		text-align: center;
+		font-family: cursive;
+		padding: 40px;
+	   }
+
+
+	.catalogo-inicio{
+		color: #000000;
+		font-family: fantasy;
+		font-size: 70px;
+		margin-bottom: 90px;
+   }
+
+
+	   .container{
+		width: 90%;
+		margin: 50px auto;
+	
+	}
+	
+	.heading{
+		text-decoration: underline;
+		text-align: center;
+		font-size: 18px;
+		margin-bottom: 50px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	
+	.row{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-flow: wrap;
+	}
+	
+	.card{
+		width: 90%;
+		background:#fff;
+		border: 1px solid #ccc;
+		margin-bottom: 50px;
+		transition: 0.3s;
+	}
+	
+	.card-header{
+		text-align: center;
+		font-family: sans-serif;
+		padding: 50px 10px;
+		background: linear-gradient(to right, #bd0cc4, #2e2bee);
+		color: #0d1017;
+	}
+	
+	
+	
+	.card-body{
+		padding: 3%;
+		text-align: center;
+		font-size: 18px;
+	
+	}
+	
+	p{
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	
+	.card-body .btn{
+		display: block;
+		color: #0d1017;
+		font-family: fantasy;
+		text-align: center;
+		background: linear-gradient(to right, #b825dd, rgb(12, 58, 128));
+		margin-top: 30px;
+		text-decoration: none;
+		padding: 10px 5px;
+	}
+	
+	.card:hover{
+		transform: scale(1.05);
+		box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+	}
+
+
+}
+
+
+
+
+@media screen and (max-width:480px){
+	form{
+		width: 100%;
+	}
+}
+
+
+
+
+
+/* ---------------- RESPONSIVE 600px ----------------*/
+@media screen and (min-width: 600px){ 
+
+
+
+	.bienvenida{
+		font-size: 20px;
+		text-align: center;
+		font-family: cursive;
+		padding: 40px;
+	   }
+
+
+	.catalogo-inicio{
+		color: #000000;
+		font-family: fantasy;
+		font-size: 90px;
+		margin-bottom: 90px;
+   }
+
+
+	.container{
+		width: 90%;
+		margin: 50px auto;
+	
+	}
+	
+	.heading{
+		text-decoration: underline;
+		text-align: center;
+		font-size: 20px;
+		margin-bottom: 50px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	
+	.row{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-flow: wrap;
+	}
+	
+	.card{
+		width: 90%;
+		background:#fff;
+		border: 1px solid #ccc;
+		margin-bottom: 50px;
+		transition: 0.3s;
+	}
+	
+	.card-header{
+		text-align: center;
+		font-family: sans-serif;
+		padding: 50px 10px;
+		background: linear-gradient(to right, #bd0cc4, #2e2bee);
+		color: #0d1017;
+	}
+	
+	
+	
+	.card-body{
+		padding: 3%;
+		text-align: center;
+		font-size: 18px;
+	
+	}
+	
+	p{
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	
+	.card-body .btn{
+		display: block;
+		color: #0d1017;
+		font-family: fantasy;
+		text-align: center;
+		background: linear-gradient(to right, #b825dd, rgb(12, 58, 128));
+		margin-top: 30px;
+		text-decoration: none;
+		padding: 10px 5px;
+	}
+	
+	.card:hover{
+		transform: scale(1.05);
+		box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+	}
+
+
+	.container-bicicletas-accesorios{
+		grid-template-columns: repeat(2, 1fr);
+	} /*2xfila*/
+	
+
+
+}
+
+
+
+
+
+
+
+
+/* ---------------- RESPONSIVE 768px ----------------*/
+@media screen and (min-width: 768px){ 
+
+
+
+
+	.bienvenida{
+		font-size: 25px;
+		text-align: center;
+		font-family: cursive;
+		padding:40px;
+	   }
+
+
+
+	.container{
+		width: 90%;
+		margin: 50px auto;
+	
+	}
+
+	.catalogo-inicio{
+		color: #000000;
+		font-family: fantasy;
+		font-size: 90px;
+		margin-bottom: 90px;
+   }
+	
+	.heading{
+		text-decoration: underline;
+		text-align: center;
+		font-size: 20px;
+		margin-bottom: 50px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	
+	.row{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-flow: wrap;
+	}
+	
+	.card{
+		width: 90%;
+		background:#fff;
+		border: 1px solid #ccc;
+		margin-bottom: 50px;
+		transition: 0.3s;
+	}
+	
+	.card-header{
+		text-align: center;
+		font-family: sans-serif;
+		padding: 50px 10px;
+		background: linear-gradient(to right, #bd0cc4, #2e2bee);
+		color: #0d1017;
+	}
+	
+	
+	
+	.card-body{
+		padding: 3%;
+		text-align: center;
+		font-size: 18px;
+	
+	}
+	
+	p{
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+
+	.card-body .btn{
+		display: block;
+		color: #0d1017;
+		font-family: fantasy;
+		text-align: center;
+		background: linear-gradient(to right, #b825dd, rgb(12, 58, 128));
+		margin-top: 30px;
+		text-decoration: none;
+		padding: 10px 5px;
+	}
+	
+	.card:hover{
+		transform: scale(1.05);
+		box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+	}
+
+
+
+
+
+
+
+	.h1-titulo{
+		text-align: center;
+		margin-bottom: 30px;
+		margin-top: 30px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 45px;
+	}
+
+
+	.h1-ubicacion{
+		font-family: Arial, Helvetica, sans-serif;
+		padding: 10px;
+		text-align: center;
+		margin-bottom: 30px;
+		font-size: 45px;
+		color: rgb(0, 0, 0);
+		margin-top: 30px;
+	}
+	
+	
+	.h1-videos{
+		font-family: Arial, Helvetica, sans-serif;
+		padding: 10px;
+		text-align: center;
+		font-size: 45px;
+		color: rgb(0, 0, 0);
+		margin-bottom: 30px;
+		margin-top: 30px;
+		
+	}
+
+
+	.video-sobre-nosotros{
+		background: rgba(0,0,0,0.6);
+		padding: 5px;
+		margin-bottom: 40px;
+	}
+	
+	
+	.video{
+		margin-top: 100px;
+		width: 630px;
+		height: 320px;
+		margin-bottom: 100px;
+	}
+	
+	
+	.video2{
+		width: 630px;
+		height: 360px;
+		margin-bottom: 140px;
+		
+	}
+
+	
+
+
+}
+
+
+
+
+
+/* ---------------- RESPONSIVE 1089px ----------------*/
+@media (max-width: 1106px){
+
+    .checkbtn{
+      display: block;
+    }
+
+    .ul-nav{
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: #092327;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+	  position: absolute;
+    }
+
+    .nav .ul-nav .li-nav{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+
+    .nav .ul-nav .li-nav .a-nav{
+      font-size: 25px;
+	  font-family: fantasy;
+	
+    }
+
+    .a-nav:hover{
+      background: #5b6064;
+      color: #000000;
+    }
+
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+
+  p{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+  
+
+
+
+
+
+/* ---------------- RESPONSIVE 1024px ----------------*/
+@media screen and (min-width: 1024px){ 
+
+	label.logo{
+		color: white;
+		font-size: 40px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		line-height: 80px;
+		padding: 0 100px;
+	  }
+
+
+
+	.bienvenida{
+		font-size: 30px;
+		text-align: center;
+		font-family: cursive;
+	}
+
+	
+
+	.catalogo-inicio{
+		color: #000000;
+		font-family: fantasy;
+		font-size: 80px;
+		margin-bottom: 90px;
+	}
+	 
+
+
+	.container{
+		width: 90%;
+		margin: 50px auto;
+	
+	}
+	
+	.heading{
+		text-align: center;
+		font-size: 26px;
+		margin-bottom: 50px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	
+	.row{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-flow: wrap;
+	}
+	
+	.card{
+		width: 20%;
+		background:#fff;
+		border: 1px solid #ccc;
+		margin-bottom: 50px;
+		transition: 0.3s;
+	}
+	
+	.card-header{
+		text-align: center;
+		font-family: sans-serif;
+		padding: 50px 10px;
+		background: linear-gradient(to right, #bd0cc4, #2e2bee);
+		color: #0d1017;
+	}
+	
+	.h1-card{
+		font-size: 120%;
+	}
+	
+	
+	.card-body{
+		padding: 3%;
+		text-align: center;
+		font-size: 18px;
+	
+	}
+	
+	
+	.card-body .btn{
+		display: block;
+		color: #0d1017;
+		font-family: fantasy;
+		text-align: center;
+		background: linear-gradient(to right, #b825dd, rgb(12, 58, 128));
+		margin-top: 30px;
+		text-decoration: none;
+		padding: 10px 5px;
+	}
+	
+	.card:hover{
+		transform: scale(1.05);
+		box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+	}
+
+
+	p{
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+
+
+	
+	.mapa-ubicacion{
+		width: 1270px;
+		height: 570px;
+		padding: 0px;
+		margin-bottom: 0px;
+	}
+
+	
+	.video{
+		width: 1190px;
+		height: 535px;
+		margin-bottom: 200px;
+		}
+		
+		
+	.video2{
+		width: 978px;
+		height: 550px;
+		margin-bottom: 140px;
+			
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
